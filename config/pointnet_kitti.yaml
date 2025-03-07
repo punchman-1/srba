@@ -1,0 +1,13 @@
+checkpoint: checkpoints/pointnet_kitti.pth
+model:
+    name: pointnet_cls
+    point_feature_channels: 4
+    out_channels: 8
+    num_points: 1024    
+    seed: 0
+
+trigger_value: [0.1]
+  
+
+
+

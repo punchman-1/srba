@@ -1,0 +1,12 @@
+checkpoint: checkpoints/pointnet_modelnet10.pth
+
+model:
+    name: pointnet_cls
+    point_feature_channels: 6
+    out_channels: 10
+    num_points: 1024
+    seed: 0
+
+trigger_value: [0.1,0.1,0.1]
+
+  
